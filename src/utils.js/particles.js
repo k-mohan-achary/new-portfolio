@@ -6,7 +6,8 @@ export default {
     // },
     /** Change Code to Add Back ground Image Code  */
     background: {
-        image: "url('https://live.staticflickr.com/65535/51105464410_9e65a29622_c.jpg')",  // Replace with your image URL
+        image: "url('https://live.staticflickr.com/65535/54208013968_faebcc2044_b.jpg')",  // Replace with your image URL
+        // image: "url('https://live.staticflickr.com/65535/51105464410_9e65a29622_c.jpg')",  // Replace with your image URL
         size: "cover",  // This ensures the image covers the entire background
         position: "center",  // This centers the image
         repeat: "no-repeat"  // This prevents the image from repeating
@@ -37,10 +38,13 @@ export default {
     },
     particles: {
         color: {
-            value: "#ffdd40",
+            // value: "#C1A579", 
+            value: "#fff", 
         },
         links: {
-            color: "#ffdd40",
+            // color: "#C1A579",
+            color: "#fff",
+            // color: "#d40302",
             distance: 150,
             enable: true,
             opacity: 0.5,
